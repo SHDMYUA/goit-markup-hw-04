@@ -384,18 +384,44 @@ margin-bottom: 10px;
 
 .member-position {
   font-weight: 400;
-  margin-bottom: 0px;
+  margin-bottom: 16px;
   color: var(--secondary-text-color);
 }
+.member-social-list {
+  display: flex;
+  justify-content: center;
+  }
+
+.member-social-items {
+  margin-right: 10px;
+}
+
+/* ----------------- SECTION SOCIAL ICONS -----------------*/
 
 .member-social-link {
   width: 44px;
   height: 44px;
-  background-color: tomato;
   border-radius: 50px;
-  display: block;
-
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.member-social-icon {
+  fill: rgba(175, 177, 184, 1);  
+}
+
+.member-social-link:hover {
+  background-color: var(--accent-text-color);
+}
+
+.member-social-link:hover
+.member-social-icon {
+  fill: rgba(255, 255, 255, 1);
+}
+
+
 /* --------------------SECTION FOOTER----------------------- */
 
 
