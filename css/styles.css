@@ -66,14 +66,12 @@ body {
   margin: 0 auto;
 }
 section {
-  width: 1600px;
   padding-top: 96px;
   padding-bottom: 96px;
 }
 
 /* -------------------- SECTION NAVIGATION ------------- */
 .header-page {
-  width: 1600px;
   background: var(--bg-primary-color);
   margin-top: 24px;
   padding-bottom: 25px;
@@ -203,16 +201,8 @@ margin-right: 50px;
   color: var(--secondary-text-color);
 }
 
-.flex-elements img {
-  margin-bottom: 20px;
-}
-
 .flex-elements .title {
   margin-bottom: 4px;
-}
-
-.flex-elements .content {
-  margin-bottom: 20px;
 }
 
 .examples-nav {
@@ -372,9 +362,16 @@ margin-bottom: 10px;
   margin-bottom: 10px;
 }
 
+.employee {
+  padding: 0px 59px 30px 59px;
+}
+
+.examples-wrap {
+  padding: 20px 24px;
+}
+
 .member-position {
   font-weight: 400;
-  padding-bottom: 30px;
   margin-bottom: 0px;
   color: var(--secondary-text-color);
 }
@@ -383,7 +380,6 @@ margin-bottom: 10px;
 
 
 .footer { 
-  width: 1600px;
   background: var(--bg-footer-color);
   padding-top: 60px;padding-bottom: 60px;
 }
