@@ -145,7 +145,7 @@ margin-right: 50px;
   text-decoration: none;
 }
 
-.header-page .menu.current {
+.menu.current {
   color: var(--accent-text-color);
 } 
 
@@ -156,6 +156,22 @@ margin-right: 50px;
 .header-page .link:focus {
   color: var(--accent-text-color);
 }
+
+.mail-icon, .phone-icon {
+  fill: #757575; 
+  margin-right: 10px; 
+}
+
+.header-page .link:hover
+.mail-icon {
+  fill: var(--accent-text-color);
+}
+
+.header-page .link:hover
+.phone-icon {
+  fill: var(--accent-text-color);
+}
+
 
 .portfolio .link {
   background-color: var(--bg-secondary-color);
@@ -171,9 +187,9 @@ margin-right: 50px;
   border: 1px transparent;
 }
 
-.link.mail::before {
+/* .link.mail::before {
   content: "";
-}
+} */
 
 .portfolio .link:hover,
 .portfolio .link:focus {
