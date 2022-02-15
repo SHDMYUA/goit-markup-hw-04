@@ -561,7 +561,8 @@ background: #000;
   color: var(--accent-text-color);
 }
 
-.logo-whole {
+.part
+/* .logo.secondary { */
   margin-bottom: 20px;
   
 }
@@ -613,15 +614,21 @@ background: #000;
   fill: rgba(255, 255, 255, 1);
 }
 
-.social-link-wrapper,
-.address-wrapper, {
+
+.address {
   display: block;
+  margin-right: 70px;
 }
 
-.social-link-wrapper {
+.footer-social-links {
   display: block;
+}
+.footer-social-items {
+  display: flex;
+  margin-right: auto;
 }
 
 .right-footer-wrapper {
-  align-items: center;
+  display: flex;
+  
 }
