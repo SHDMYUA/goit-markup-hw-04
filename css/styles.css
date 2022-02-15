@@ -97,6 +97,7 @@ section {
 
 .logo.secondary .part {
   color: #ffffff;
+  mr156
 }
 
 .logo:hover,
@@ -523,6 +524,7 @@ background: #000;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 9px;
+  margin-right: 70px;
 }
 
 .address .post:hover,
@@ -545,4 +547,57 @@ background: #000;
 
 .item-li:last-child {
   margin-bottom: 0px;
+}
+
+/* ----------------- FOOTER SOCIAL ICONS -----------------*/
+
+.footer-social-title {
+  text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+  }
+
+
+.footer-social-icon {
+  fill: #FFFFFF;
+}
+
+.footer-social-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  /* background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.footer-social-icon {
+  fill: #FFFFFF;  
+}
+
+.footer-social-link:hover {
+  background-color: var(--accent-text-color);
+}
+
+.footer-social-link:hover
+.footer-social-icon {
+  fill: rgba(255, 255, 255, 1);
+}
+
+/* .footer-social-links {
+  display: flex;
+}
+
+.footer-wrap {
+  display: flex;
+  align-items: flex-start;
+} */
+
+.footer-social-links {
+  display: inline-flex;
+  margin-right: auto;
 }
