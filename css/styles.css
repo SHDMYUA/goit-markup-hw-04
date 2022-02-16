@@ -373,7 +373,9 @@ background: #000;
 .benefits-item:not(:last-child) {
   margin-right: 30px;
   }
-
+.benefits.list {
+  margin-bottom: 94px;
+}
 
 /* -------------------- SECTION TEAM AND EXPERIANCE ----------------------- */
 
@@ -389,6 +391,7 @@ background: #000;
 }
 
 .container .development {
+
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -396,7 +399,7 @@ background: #000;
 
 .development-item {
   width: 370px;
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
 }
 
 .development-item:not(:last-child) {
