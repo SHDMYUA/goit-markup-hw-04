@@ -5,6 +5,7 @@
   --bg-primary-color: #ffffff;
   --bg-secondary-color: #f5f4fa;
   --bg-footer-color: #2f303a;
+  --animation-transform 250ms;
 }
 
 h1, h2, h3, p, ul {
@@ -17,6 +18,32 @@ img {
   height: auto;
 }
 
+/* animation for all links */
+a,
+a:visited {
+  cursor: pointer;
+
+  -webkit-transition: 1s ease-in-out;
+       -moz-transition: 1s ease-in-out;
+        -ms-transition: 1s ease-in-out;
+         -o-transition: 1s ease-in-out;
+            transition: 1s ease-in-out;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+  opacity: 0.8;
+  cursor: pointer;
+  
+  -webkit-transition: 1s ease-in-out;
+       -moz-transition: 1s ease-in-out;
+        -ms-transition: 1s ease-in-out;
+         -o-transition: 1s ease-in-out;
+            transition: 1s ease-in-out;
+
+}
+
 ul, ol {
   margin: 0;
   padding: 0;
@@ -24,6 +51,7 @@ ul, ol {
 
 button {
   cursor: pointer;
+  opacity: 1;
 }
 
 address {
@@ -152,7 +180,7 @@ margin-right: 50px;
 
 .header-page .link {
 
-  color: #757575;
+  color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -376,6 +404,7 @@ background: #000;
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
+  margin-bottom: 94px;
 }
 
 .container .benefits {
@@ -409,7 +438,7 @@ background: #000;
 
 .development-item {
   width: 370px;
-  margin-bottom: 94px;
+  
 }
 
 .development-wrap,
