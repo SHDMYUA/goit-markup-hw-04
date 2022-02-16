@@ -511,15 +511,19 @@ background: #000;
   background: rgba(33, 150, 243, 0.9);
 }
 
+
+
 .development-wrap:hover
 .development-content {
   transform: translateY(0%);
 }
 
-.examples-item-wrap:hover
+/* .examples-item-wrap:hover */
+.flex-elements:hover
 .examples-content {
   transform: translateY(0%);
 }
+
 .development-item:not(:last-child) {
   margin-right: 30px;
   }
